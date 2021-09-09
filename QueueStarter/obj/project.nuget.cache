@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "F4+bIcSJxlXfq0968xUNVnNbiXLqNlf1FZEfmXf/N2hm4dqN+6a6IVrOLEJIpTpRwuWAvfsPF/3HLSvP6Ln8ag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\QueueStarter\\QueueStarter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\juani\\.nuget\\packages\\rabbitmq.client\\6.2.1\\rabbitmq.client.6.2.1.nupkg.sha512",
+    "C:\\Users\\juani\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\juani\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

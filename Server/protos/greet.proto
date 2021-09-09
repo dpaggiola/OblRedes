@@ -1,0 +1,32 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Server";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc AddUser(AddUserRequest) returns (Reply);
+  rpc DeleteUser(Username) returns (Reply);
+  rpc UpdateUser(UpdateUserRequest) returns (Reply);
+}
+
+
+message Reply {
+  string message = 1;
+}
+message Username {
+  string username = 1;
+}
+
+message AddUserRequest{
+   string username = 1;
+   string password = 2;
+}
+
+message UpdateUserRequest{
+	string oldUsername = 1;   
+	string username = 2;
+    string password = 3;
+}

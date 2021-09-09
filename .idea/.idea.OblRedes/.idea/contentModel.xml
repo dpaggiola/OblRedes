@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\juani\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\juani\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_OblRedes.-318499874.00" t="ExcludeRecursive" />
+    <e p="C:\Users\juani\Desktop\OblRedes\OblRedes" t="IncludeFlat">
+      <e p="Client" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Client.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Client.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="ServerManager.cs" t="Include" />
+      </e>
+      <e p="ClientAdmin" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientAdmin.csproj" t="IncludeRecursive" />
+        <e p="ClientAdminManager.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ClientAdmin.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Common" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Command.cs" t="Include" />
+        <e p="CommandType.cs" t="Include" />
+        <e p="Common.csproj" t="IncludeRecursive" />
+        <e p="ConnectionConstants.cs" t="Include" />
+        <e p="Data.cs" t="Include" />
+        <e p="FileFunctions.cs" t="Include" />
+        <e p="FileHandler.cs" t="Include" />
+        <e p="Flag.cs" t="Include" />
+        <e p="FlagType.cs" t="Include" />
+        <e p="FrameHandler.cs" t="Include" />
+        <e p="Header.cs" t="Include" />
+        <e p="HeaderLength.cs" t="Include" />
+        <e p="HeaderStructure.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Common.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Parser.cs" t="Include" />
+        <e p="SpecificationHelper.cs" t="Include" />
+      </e>
+      <e p="DataAccess" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientDataAccess.cs" t="Include" />
+        <e p="CommentDataAccess.cs" t="Include" />
+        <e p="DataAccess.csproj" t="IncludeRecursive" />
+        <e p="LogDataAccess.cs" t="Include" />
+        <e p="MenuDataAccess.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="DataAccess.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PhotoDataAccess.cs" t="Include" />
+      </e>
+      <e p="Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Comment.cs" t="Include" />
+        <e p="Domain.csproj" t="IncludeRecursive" />
+        <e p="ErrorMessages" t="Include">
+          <e p="UserErrorMessages.cs" t="Include" />
+        </e>
+        <e p="Log.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Photo.cs" t="Include" />
+        <e p="User.cs" t="Include" />
+      </e>
+      <e p="Exceptions" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Exceptions.csproj" t="IncludeRecursive" />
+        <e p="InvalidUserFieldException.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Exceptions.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PhotoDoesNotExistsException.cs" t="Include" />
+        <e p="UserAlreadyConnectedException.cs" t="Include" />
+        <e p="UserAlreadyExistsException.cs" t="Include" />
+        <e p="UserDoesNotExistsException.cs" t="Include" />
+        <e p="UserException.cs" t="Include" />
+      </e>
+      <e p="ICommon" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ICodification.cs" t="Include" />
+        <e p="ICommon.csproj" t="IncludeRecursive" />
+        <e p="IFileFunctions.cs" t="Include" />
+        <e p="IFileHandler.cs" t="Include" />
+        <e p="IFrameHandler.cs" t="Include" />
+        <e p="IParser.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ICommon.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="IDataAccess" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IClientDataAccess.cs" t="Include" />
+        <e p="ICommentDataAccess.cs" t="Include" />
+        <e p="IDataAccess.csproj" t="IncludeRecursive" />
+        <e p="ILogDataAccess.cs" t="Include" />
+        <e p="IMenuDataAccess.cs" t="Include" />
+        <e p="IPhotoDataAccess.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="IDataAccess.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="IServices" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IClientService.cs" t="Include" />
+        <e p="ICommentService.cs" t="Include" />
+        <e p="IFileService.cs" t="Include" />
+        <e p="ILogService.cs" t="Include" />
+        <e p="IMenuService.cs" t="Include" />
+        <e p="IPhotoService.cs" t="Include" />
+        <e p="IServices.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="IServices.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="OblRedes.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Persistance" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MemoryDataBase.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Persistance.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Persistance.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="QueueManager" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="QueueManager.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="QueueManager.csproj" t="IncludeRecursive" />
+        <e p="SingletonInstance.cs" t="Include" />
+      </e>
+      <e p="Server" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Server.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Protos" t="Include">
+          <e p="Greet.g.cs" t="Include" />
+          <e p="greet.proto" t="Include" />
+          <e p="GreetGrpc.cs" t="Include" />
+        </e>
+        <e p="Server.csproj" t="IncludeRecursive" />
+        <e p="ServerFunctionManager.cs" t="Include" />
+        <e p="ServerManager.cs" t="Include" />
+        <e p="Services" t="Include">
+          <e p="GreeterService.cs" t="Include" />
+          <e p="SenderService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="ServerAdmin" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="UsersController.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="DeleteUserModel.cs" t="Include" />
+          <e p="UserModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ServerAdmin.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Protos" t="Include">
+          <e p="greet.proto" t="Include" />
+        </e>
+        <e p="ServerAdmin.csproj" t="IncludeRecursive" />
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="ServerLogWebApi" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="LogsController.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ServerLogWebApi.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="ServerLogWebApi.csproj" t="IncludeRecursive" />
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="Services" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientService.cs" t="Include" />
+        <e p="CommentService.cs" t="Include" />
+        <e p="FileService.cs" t="Include" />
+        <e p="LogService.cs" t="Include" />
+        <e p="MenuService.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Services.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PhotoService.cs" t="Include" />
+        <e p="Services.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
