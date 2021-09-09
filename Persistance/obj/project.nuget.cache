@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "eU6WX19rBcGnPKahPtlk/3JXP/MBu/EQ1nHwH+ew4iI4PnD+v/XtGT5lWpS+Ny0MUA5MURTVEeKUHjPJhaUSIA==",
+  "success": false,
+  "projectFilePath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Persistance\\Persistance.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete RabbitMQ.Client. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "RabbitMQ.Client",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

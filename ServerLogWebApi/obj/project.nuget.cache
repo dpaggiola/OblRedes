@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "5ZRSTqI8vpGltAuWJn3VgsOKxug52wNIrpzWEpgCUzVokFUJUPIEi+DgL9gLeFn3FUW7w8fbrUTgh/0Li5Kqcw==",
+  "success": false,
+  "projectFilePath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\ServerLogWebApi\\ServerLogWebApi.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete RabbitMQ.Client. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "RabbitMQ.Client",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete System.Drawing.Common. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

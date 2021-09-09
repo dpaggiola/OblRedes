@@ -1,40 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Client\\Client.csproj": {}
+    "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Client\\Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Client\\Client.csproj": {
+    "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Client\\Client.csproj",
+        "projectUniqueName": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Client\\Client.csproj",
-        "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Client\\obj\\",
+        "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Client\\Client.csproj",
+        "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Client\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Persistance\\Persistance.csproj": {
-                "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Persistance\\Persistance.csproj"
+              "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Persistance\\Persistance.csproj": {
+                "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Persistance\\Persistance.csproj"
               },
-              "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Services\\Services.csproj"
+              "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Services\\Services.csproj": {
+                "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Services\\Services.csproj"
               }
             }
           }
@@ -47,6 +44,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -80,38 +78,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Common\\Common.csproj": {
+    "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Common\\obj\\",
+        "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\ICommon\\ICommon.csproj": {
-                "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\ICommon\\ICommon.csproj"
+              "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\ICommon\\ICommon.csproj": {
+                "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\ICommon\\ICommon.csproj"
               }
             }
           }
@@ -124,6 +119,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "System.Drawing.Common": {
               "target": "Package",
@@ -145,38 +141,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Domain\\Domain.csproj": {
+    "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Domain\\obj\\",
+        "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Exceptions\\Exceptions.csproj": {
-                "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Exceptions\\Exceptions.csproj"
+              "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Exceptions\\Exceptions.csproj": {
+                "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Exceptions\\Exceptions.csproj"
               }
             }
           }
@@ -189,6 +182,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -204,35 +198,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Exceptions\\Exceptions.csproj": {
+    "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Exceptions\\Exceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Exceptions\\Exceptions.csproj",
+        "projectUniqueName": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Exceptions\\Exceptions.csproj",
         "projectName": "Exceptions",
-        "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Exceptions\\Exceptions.csproj",
-        "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Exceptions\\obj\\",
+        "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Exceptions\\Exceptions.csproj",
+        "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Exceptions\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -244,6 +235,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -259,35 +251,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\ICommon\\ICommon.csproj": {
+    "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\ICommon\\ICommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\ICommon\\ICommon.csproj",
+        "projectUniqueName": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\ICommon\\ICommon.csproj",
         "projectName": "ICommon",
-        "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\ICommon\\ICommon.csproj",
-        "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\ICommon\\obj\\",
+        "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\ICommon\\ICommon.csproj",
+        "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\ICommon\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -299,6 +288,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -314,38 +304,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IDataAccess\\IDataAccess.csproj": {
+    "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IDataAccess\\IDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IDataAccess\\IDataAccess.csproj",
+        "projectUniqueName": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IDataAccess\\IDataAccess.csproj",
         "projectName": "IDataAccess",
-        "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IDataAccess\\IDataAccess.csproj",
-        "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IDataAccess\\obj\\",
+        "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IDataAccess\\IDataAccess.csproj",
+        "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IDataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Domain\\Domain.csproj"
+              "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Domain\\Domain.csproj"
               }
             }
           }
@@ -358,6 +345,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -373,38 +361,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IServices\\IServices.csproj": {
+    "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IServices\\IServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IServices\\IServices.csproj",
+        "projectUniqueName": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IServices\\IServices.csproj",
         "projectName": "IServices",
-        "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IServices\\IServices.csproj",
-        "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IServices\\obj\\",
+        "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IServices\\IServices.csproj",
+        "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IServices\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Domain\\Domain.csproj"
+              "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Domain\\Domain.csproj"
               }
             }
           }
@@ -417,6 +402,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -432,41 +418,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Persistance\\Persistance.csproj": {
+    "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Persistance\\Persistance.csproj",
+        "projectUniqueName": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Persistance\\Persistance.csproj",
-        "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Persistance\\obj\\",
+        "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Persistance\\Persistance.csproj",
+        "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Domain\\Domain.csproj"
+              "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Exceptions\\Exceptions.csproj": {
-                "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Exceptions\\Exceptions.csproj"
+              "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Exceptions\\Exceptions.csproj": {
+                "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Exceptions\\Exceptions.csproj"
               }
             }
           }
@@ -479,6 +462,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "RabbitMQ.Client": {
               "target": "Package",
@@ -500,47 +484,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Services\\Services.csproj": {
+    "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Services\\obj\\",
+        "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Common\\Common.csproj"
+              "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Common\\Common.csproj": {
+                "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Common\\Common.csproj"
               },
-              "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IDataAccess\\IDataAccess.csproj": {
-                "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IDataAccess\\IDataAccess.csproj"
+              "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IDataAccess\\IDataAccess.csproj": {
+                "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IDataAccess\\IDataAccess.csproj"
               },
-              "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IServices\\IServices.csproj": {
-                "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IServices\\IServices.csproj"
+              "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IServices\\IServices.csproj": {
+                "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IServices\\IServices.csproj"
               },
-              "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Persistance\\Persistance.csproj": {
-                "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Persistance\\Persistance.csproj"
+              "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Persistance\\Persistance.csproj": {
+                "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Persistance\\Persistance.csproj"
               }
             }
           }
@@ -553,6 +534,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "RabbitMQ.Client": {
               "target": "Package",
@@ -574,7 +556,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,86 +2,6 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Microsoft.NETCore.Platforms/5.0.0-rc.2.20475.5": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/_._": {}
-        }
-      },
-      "Microsoft.Win32.SystemEvents/5.0.0-rc.2.20475.5": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0-rc.2.20475.5"
-        },
-        "compile": {
-          "ref/netstandard2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
-      "RabbitMQ.Client/6.2.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Memory": "4.5.4",
-          "System.Threading.Channels": "4.7.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/RabbitMQ.Client.dll": {}
-        }
-      },
-      "System.Drawing.Common/5.0.0-rc.2.20475.5": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Win32.SystemEvents": "5.0.0-rc.2.20475.5"
-        },
-        "compile": {
-          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/System.Drawing.Common.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
-      "System.Memory/4.5.4": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Threading.Channels/4.7.1": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
-        }
-      },
       "Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -173,160 +93,6 @@
     }
   },
   "libraries": {
-    "Microsoft.NETCore.Platforms/5.0.0-rc.2.20475.5": {
-      "sha512": "AKhVEYbvVKx5xiG76M5yIn8TzWWUMYuMaeyizohVvdyiwPa5OQwVjqwlzaKG8KDu3l6y96jWZbSCYZi54mJ63A==",
-      "type": "package",
-      "path": "microsoft.netcore.platforms/5.0.0-rc.2.20475.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.5.0.0-rc.2.20475.5.nupkg.sha512",
-        "microsoft.netcore.platforms.nuspec",
-        "runtime.json",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "Microsoft.Win32.SystemEvents/5.0.0-rc.2.20475.5": {
-      "sha512": "dhovuI1uqRAR3q1gpU9wn4vzCcFDCze7gmvoCtYBQUly4q8kmNRFoJoeQscXpEuYoNQaP+4tkzO78ZAXIs2H3Q==",
-      "type": "package",
-      "path": "microsoft.win32.systemevents/5.0.0-rc.2.20475.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.Win32.SystemEvents.dll",
-        "lib/net461/Microsoft.Win32.SystemEvents.xml",
-        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
-        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "microsoft.win32.systemevents.5.0.0-rc.2.20475.5.nupkg.sha512",
-        "microsoft.win32.systemevents.nuspec",
-        "ref/net461/Microsoft.Win32.SystemEvents.dll",
-        "ref/net461/Microsoft.Win32.SystemEvents.xml",
-        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
-        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
-        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
-        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
-        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
-        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "RabbitMQ.Client/6.2.1": {
-      "sha512": "kdcin0uz1b9xQPvlLOoa8Y2zQsfu7nRuTrcX02dCLVzwGVlsPp9AFgu1L3kRh4wSFEOGE03OVqpWKxaDlhuowQ==",
-      "type": "package",
-      "path": "rabbitmq.client/6.2.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "icon.png",
-        "lib/net461/RabbitMQ.Client.dll",
-        "lib/net461/RabbitMQ.Client.pdb",
-        "lib/net461/RabbitMQ.Client.xml",
-        "lib/netstandard2.0/RabbitMQ.Client.dll",
-        "lib/netstandard2.0/RabbitMQ.Client.pdb",
-        "lib/netstandard2.0/RabbitMQ.Client.xml",
-        "rabbitmq.client.6.2.1.nupkg.sha512",
-        "rabbitmq.client.nuspec"
-      ]
-    },
-    "System.Drawing.Common/5.0.0-rc.2.20475.5": {
-      "sha512": "5RZPu5QvUviulcWusr1giGW4u9zch4LBwU8OeHccKkWMxm79JiqtLHqejxlJ1jwpYT7q2G9EsjAg86QBbSJMgg==",
-      "type": "package",
-      "path": "system.drawing.common/5.0.0-rc.2.20475.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net461/System.Drawing.Common.dll",
-        "lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "lib/netstandard2.0/System.Drawing.Common.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net461/System.Drawing.Common.dll",
-        "ref/netcoreapp3.0/System.Drawing.Common.dll",
-        "ref/netcoreapp3.0/System.Drawing.Common.xml",
-        "ref/netstandard2.0/System.Drawing.Common.dll",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
-        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
-        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
-        "system.drawing.common.5.0.0-rc.2.20475.5.nupkg.sha512",
-        "system.drawing.common.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Memory/4.5.4": {
-      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
-      "type": "package",
-      "path": "system.memory/4.5.4",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Memory.dll",
-        "lib/net461/System.Memory.xml",
-        "lib/netcoreapp2.1/_._",
-        "lib/netstandard1.1/System.Memory.dll",
-        "lib/netstandard1.1/System.Memory.xml",
-        "lib/netstandard2.0/System.Memory.dll",
-        "lib/netstandard2.0/System.Memory.xml",
-        "ref/netcoreapp2.1/_._",
-        "system.memory.4.5.4.nupkg.sha512",
-        "system.memory.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "System.Threading.Channels/4.7.1": {
-      "sha512": "6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
-      "type": "package",
-      "path": "system.threading.channels/4.7.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Threading.Channels.dll",
-        "lib/net461/System.Threading.Channels.xml",
-        "lib/netcoreapp3.0/System.Threading.Channels.dll",
-        "lib/netcoreapp3.0/System.Threading.Channels.xml",
-        "lib/netstandard1.3/System.Threading.Channels.dll",
-        "lib/netstandard1.3/System.Threading.Channels.xml",
-        "lib/netstandard2.0/System.Threading.Channels.dll",
-        "lib/netstandard2.0/System.Threading.Channels.xml",
-        "system.threading.channels.4.7.1.nupkg.sha512",
-        "system.threading.channels.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "Common/1.0.0": {
       "type": "project",
       "path": "../Common/Common.csproj",
@@ -373,46 +139,42 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\juani\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\daniel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Services\\obj\\",
+      "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\daniel\\.nuget\\packages\\",
+      "outputPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Services\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Common\\Common.csproj"
+            "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Common\\Common.csproj": {
+              "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Common\\Common.csproj"
             },
-            "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IDataAccess\\IDataAccess.csproj": {
-              "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IDataAccess\\IDataAccess.csproj"
+            "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IDataAccess\\IDataAccess.csproj": {
+              "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IDataAccess\\IDataAccess.csproj"
             },
-            "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IServices\\IServices.csproj": {
-              "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\IServices\\IServices.csproj"
+            "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IServices\\IServices.csproj": {
+              "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\IServices\\IServices.csproj"
             },
-            "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Persistance\\Persistance.csproj": {
-              "projectPath": "C:\\Users\\juani\\Desktop\\OblRedes\\OblRedes\\Persistance\\Persistance.csproj"
+            "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Persistance\\Persistance.csproj": {
+              "projectPath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Persistance\\Persistance.csproj"
             }
           }
         }
@@ -425,6 +187,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "RabbitMQ.Client": {
             "target": "Package",
@@ -446,8 +209,28 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete RabbitMQ.Client. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "RabbitMQ.Client",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete System.Drawing.Common. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,108 @@
+{
+  "version": 2,
+  "dgSpecHash": "jsIAUqWcm65foRiPX45qintWK8IOTgq5A/KpNuS3u5rY8EoWzPUXld+E3C88TVdJ9e4Ds7qoHqQvqAAtP20oTA==",
+  "success": false,
+  "projectFilePath": "C:\\ProgRedes\\EntregaOBL2020\\OblRedes\\Server\\Server.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Grpc.Core. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Grpc.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Grpc.AspNetCore. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Grpc.AspNetCore",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Extensions.Configuration.EnvironmentVariables. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Grpc. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Grpc",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Grpc.Tools. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Grpc.Tools",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Extensions.Configuration.Json. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Extensions.Configuration.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Google.Protobuf. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Google.Protobuf",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Extensions.Configuration. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Extensions.Configuration",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete Microsoft.Extensions.Configuration.CommandLine. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.Extensions.Configuration.CommandLine",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete RabbitMQ.Client. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "RabbitMQ.Client",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "No se encuentra el paquete System.Drawing.Common. No existe ningún paquete con este id. en los orígenes: Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
